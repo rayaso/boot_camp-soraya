@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test">
+    <listeners>
+        <listener class-name="listeners.ListenersBankOfAmerica"></listener>
+    </listeners>
+    
+    
+    
+    <test name="all stepdef">
+        <classes>
+
+
+            <class name="testbankofamerica.TestBankOfAmerica">
+                <methods>
+                    <include name="TestLoginInHomePageWithDataModel"/>
+                    <include name="TestSearchWithoutRetry"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

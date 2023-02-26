@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGListenerSuite">
+
+    <listeners>
+        <listener class-name="amazon.com.reportingandItestlisteners.TestNGListeners"></listener>
+    </listeners>
+
+
+    <test name="TestNG Test">
+
+        <classes>
+            <class name="testamazon.TestAmazon">
+
+            <methods>
+                <include name="TestAllIconn"/>
+                <include name="TesClinicc"/>
+
+            </methods>
+
+
+
+            </class>
+
+
+
+        </classes>
+    </test>
+
+</suite>

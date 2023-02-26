@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RetryFailedTestsCases" verbose="1">
+
+    <listeners>
+        <listener class-name="retryanalyzer.TransformerAnalyzer"></listener>
+    </listeners>
+    <test name="RestryTest">
+        <classes>
+            <class name="testbankofamerica.TestBankOfAmerica">
+
+
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

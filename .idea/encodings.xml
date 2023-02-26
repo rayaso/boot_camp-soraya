@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DSW/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DSW/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmobile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tmobile/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/amazon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/amazon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/automation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/automation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankofamerica/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankofamerica/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chase/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chase/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ebey/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ebey/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/google/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/google/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keybank/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keybank/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nike/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nike/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peoplentech/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/peoplentech/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sauceDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sauceDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spectrum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spectrum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/targetweb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/targetweb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/verison/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/verison/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/w3school/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/w3school/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youtube/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youtube/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
