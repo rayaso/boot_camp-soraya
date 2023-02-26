@@ -7,21 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Tmobile" />
-        <module name="peoplentech" />
-        <module name="sauceDemo" />
-        <module name="nike" />
-        <module name="google" />
-        <module name="carters" />
-        <module name="bankofamerica" />
         <module name="amazon" />
-        <module name="keybank" />
+        <module name="peoplentech" />
         <module name="automation" />
         <module name="spectrum" />
+        <module name="nike" />
+        <module name="google" />
         <module name="walamrt" />
         <module name="w3school" />
         <module name="verison" />
+        <module name="carters" />
+        <module name="bankofamerica" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="19" />
+    <bytecodeTargetLevel target="19">
+      <module name="keybank" target="19" />
+      <module name="sauceDemo" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

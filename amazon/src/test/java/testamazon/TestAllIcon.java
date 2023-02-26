@@ -14,9 +14,10 @@ public class TestAllIcon extends BaseSetupAmazon {
         amazonHomePage.clickOnAll();
         Assert.assertTrue(isElementVisible(amazonHomePage.allIcon));
         System.out.println("this is TestAllIcon");
+        logger=extent.createTest("TestAllIcon");
         //listenersOnAllIcon();
 
-        //logger=extent.createTest("TestAllIcon");
+
 
 
     }

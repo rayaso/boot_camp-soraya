@@ -15,7 +15,7 @@
             <class name="testbankofamerica.TestBankOfAmerica">
                 <methods>
                     <include name="TestLoginInHomePageWithDataModel"/>
-                    <include name="TestSearchWithoutRetry"/>
+
                 </methods>
             </class>
 
