@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-26T18:50:01.855Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tags.Hooks.doBeforeTwo()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "tags.Hooks.doBefore()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "first Scenario",
+        "description": "",
+        "id": "to-test-the-tag;first-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "tags.Hooks.doAfter()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "tags.Hooks.doAfterTwo()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we add tags",
+            "match": {
+              "location": "tags.StepDef.we_add_tags()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "added properly",
+            "match": {
+              "location": "tags.StepDef.added_properly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it works",
+            "match": {
+              "location": "tags.StepDef.it_works()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "to test the tag",
+    "description": "",
+    "id": "to-test-the-tag",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/tags/tags.feature",
+    "tags": []
+  }
+]
