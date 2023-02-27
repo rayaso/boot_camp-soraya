@@ -7,7 +7,7 @@ import pom_google.*;
 public class TestGoogle extends GoogleBaseSetup {
 
 
-    @Test
+    @Test//handle popUp window
 
     public void TestPopUpWindow() {
         GoogleHomePage home = new GoogleHomePage();
@@ -24,7 +24,7 @@ public class TestGoogle extends GoogleBaseSetup {
     }*/
 
 
-    @Test
+    @Test//user can search for dress
 
     public void TestSearchBox() {
         GoogleHomePage home = new GoogleHomePage();
@@ -33,7 +33,7 @@ public class TestGoogle extends GoogleBaseSetup {
 
     }
 
-    @Test
+    @Test//user can click on camera icon
     public void TestCamera() {
         GoogleHomePage home = new GoogleHomePage();
         home.clickOnCamera();

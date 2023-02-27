@@ -14,7 +14,6 @@ import pom_amazon.SearchResult;
 public class TestAmazon extends BaseSetupAmazon {
 
 
-
     @Test(priority = 1)//test case:user can search for dress
 
     public void TestAmazonSearch() {
@@ -22,10 +21,10 @@ public class TestAmazon extends BaseSetupAmazon {
         SearchResult searchResult = amazonHomePage.doAct("dress");
         searchResult.clickOnWeddingDress();
         Assert.assertTrue(isElementVisible(amazonHomePage.weddingDress));
-       // logger=extent.createTest("TestAmazonSearch");
+        // logger=extent.createTest("TestAmazonSearch");
     }
 
-//
+    //
     @Test//test case:user can click on location icon
     public void TestLocation() {
         AmazonHomePage amazonHomePage = new AmazonHomePage();
@@ -42,6 +41,14 @@ public class TestAmazon extends BaseSetupAmazon {
 
     }
 
+    @Test(priority = 1)//this test i made it failed to show retry analyzer
+    public void TestClinicc2() {
+        AmazonHomePage amazonHomePage = new AmazonHomePage();
+        amazonHomePage.clickOnClinic2();
+        Assert.assertTrue(isElementVisible(amazonHomePage.clinicText));
+        System.out.println("this is TestClinic");
+
+    }
 
     @Test//test case:user can click on shop valentine day link
     public void TestShopValentineDay() {
@@ -51,7 +58,7 @@ public class TestAmazon extends BaseSetupAmazon {
         this assertion does not work know because the time i did my testing it was valentine link
         now we do not have any more valentine they changed the usage of it*/
 
-        logger=extent.createTest("TestShopValentineDay");
+
     }
 
 
@@ -67,7 +74,7 @@ amazonHomePage.popUp();
     public void TestSlider() {
         AmazonHomePage amazonHomePage = new AmazonHomePage();
         amazonHomePage.clickOnSlider();
-         Assert.assertTrue(isElementVisible(amazonHomePage.slider));
+        Assert.assertTrue(isElementVisible(amazonHomePage.slider));
 
     }
 
@@ -78,9 +85,8 @@ amazonHomePage.popUp();
         amazonHomePage.clickOnAll();
         Assert.assertTrue(isElementVisible(amazonHomePage.allIcon));
         System.out.println("this is TestAllIcon");
-        logger=extent.createTest("TestAllIcon");
-    }
 
+    }
 
 
     @Test//test case:user can interact with best sellers icon
@@ -102,11 +108,10 @@ amazonHomePage.popUp();
     @Test//test case:user can signin through pop up window
     public void TestActionSSignINHomePge() {
         AmazonHomePage amazonHomePage = new AmazonHomePage();
-      //  amazonHomePage.actionsSignInHomePage();
-        AfterSignInInHomePage afterSignInInHomePage=amazonHomePage.actionsSignInHomePage();
+        //  amazonHomePage.actionsSignInHomePage();
+        AfterSignInInHomePage afterSignInInHomePage = amazonHomePage.actionsSignInHomePage();
         Assert.assertTrue(isElementVisible(afterSignInInHomePage.resultTextAfterSgnIn));
     }
-
 
 
     @Test//test case:user can change language in language box
@@ -115,11 +120,6 @@ amazonHomePage.popUp();
         amazonHomePage.actionsOnLanguage();
         Assert.assertTrue(isElementVisible(amazonHomePage.languageSpanish));
     }
-
-
-
-
-
 
 
     @Test//test case:user can interact with amazon logo

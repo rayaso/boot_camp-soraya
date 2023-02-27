@@ -5,12 +5,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/youtube/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/DSW/pom.xml" />
+        <option value="$PROJECT_DIR$/carters/pom.xml" />
         <option value="$PROJECT_DIR$/chase/pom.xml" />
         <option value="$PROJECT_DIR$/ebey/pom.xml" />
         <option value="$PROJECT_DIR$/keybank/pom.xml" />

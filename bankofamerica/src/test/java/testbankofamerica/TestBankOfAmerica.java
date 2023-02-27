@@ -24,7 +24,7 @@ public class TestBankOfAmerica extends BaseBankOfAmerica {
     }
 
     @Test
-    //this test with retryAnalyser
+    //this test i made it fail to show the retry in xml file
 
     public void TestSearchWithRetry() {
         HomePage home = new HomePage();

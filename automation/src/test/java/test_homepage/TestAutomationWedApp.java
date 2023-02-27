@@ -88,7 +88,7 @@ public class TestAutomationWedApp extends BaseSetup {
 
 
 
-    @Test
+    @Test//user can login with his email and password
     public void AfterClickMyAccount2()  {
 
         HomePage home = new HomePage();
@@ -99,7 +99,7 @@ public class TestAutomationWedApp extends BaseSetup {
 
 
 
-    @Test(dataProvider = "loginDataProvider", dataProviderClass = BaseSetup.class)
+    @Test(dataProvider = "loginDataProvider", dataProviderClass = BaseSetup.class)//test with data provider
     public void AfterClickMyAccount3(String email,String password)  {
 
         HomePage home = new HomePage();

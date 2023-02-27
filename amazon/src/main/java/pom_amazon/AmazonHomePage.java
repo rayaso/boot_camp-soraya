@@ -30,6 +30,9 @@ public class AmazonHomePage extends BaseSetupAmazon {
     @FindBy(xpath = "//div[@id='nav-xshop-container']//div//a[2]")
 
     public WebElement clinic;
+    @FindBy(xpath = "//div[@id='nav-xshop-cont']//div//a[2]")
+
+    public WebElement clinic2;
 
 
     @FindBy(xpath = "//a[@class='sign-in-tooltip-link']")
@@ -112,6 +115,12 @@ public class AmazonHomePage extends BaseSetupAmazon {
     public void clickOnClinic() {
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         clinic.click();
+
+
+    }
+    public void clickOnClinic2() {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        clinic2.click();
 
 
     }

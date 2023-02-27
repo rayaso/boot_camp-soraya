@@ -6,10 +6,15 @@
     <listeners>
         <listener class-name="retryanalyzer.Transformer"></listener>
     </listeners>
-    <test name="RestryTest">
+    <test name="RetryTest">
         <classes>
             <class name="testamazon.TestAmazon">
 
+                <methods>
+
+                    <include name="TestClinicc2"/>
+
+                </methods>
 
             </class>
 

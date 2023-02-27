@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pom_spectrum.Base;
 import pom_spectrum.HomePage;
-import pom_spectrum.Reporting;
 
 public class TestSpectrum extends Base {
 

@@ -62,7 +62,7 @@ public class TestNike extends NikeBase {
         NikeHomePage nike=new NikeHomePage();
         ResultSignInHomePage resultSignInHomePage=nike.clickSignInHomePage();
         resultSignInHomePage.enterEmail("soraya@gmail.com");
-        //Assert.assertEquals(driver.getTitle()," Welcome to Nike - Sign In");
+        Assert.assertEquals(driver.getTitle()," Welcome to Nike - Sign In");
     }
 
     @Test
@@ -70,7 +70,7 @@ public class TestNike extends NikeBase {
         NikeHomePage nike=new NikeHomePage();
         ResultSignInHomePage resultSignInHomePage=nike.clickSignInHomePage();
         resultSignInHomePage.clickChangResultSignIn();
-       // Assert.assertEquals(driver.getTitle()," Welcome to Nike - Sign In");
+        Assert.assertEquals(driver.getTitle()," Welcome to Nike - Sign In");
     }
     @Test
     public void TestActionHelp(){

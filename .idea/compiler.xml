@@ -13,16 +13,16 @@
         <module name="spectrum" />
         <module name="nike" />
         <module name="google" />
-        <module name="walamrt" />
         <module name="w3school" />
         <module name="verison" />
-        <module name="carters" />
         <module name="bankofamerica" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="19">
+      <module name="carters" target="19" />
       <module name="keybank" target="19" />
       <module name="sauceDemo" target="19" />
+      <module name="walamrt" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
